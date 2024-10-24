@@ -1,0 +1,62 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #f0f0f0;
+            padding: 10px;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #006b96;
+            color: #f0f0f0;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(0, 15, 97);
+        }
+
+        small {
+            font-size: 10px;
+        }
+    </style>
+<body>
+<h1>Dein Voucher</h1>
+<br />
+<a href="/get/<%- offer.collectionpermit %>/accept"><button>Vouchercode anzeigen</button></a> - oder - 
+<a href="/get/<%- offer.collectionpermit %>/reject">ich brauche doch keinen Voucher mehr</a>
+<br />
+<p style="font-weight: bold;">Gebe als Replizierungsadresse auf jeden Fall die Adresse "vouchermixer@space.bi" an.</p>
+<br />
+<p>Wie geht es weiter?</p>
+<p>1. Löse deinen Voucher ein und bestelle deine Tickets</p>
+<p>2. Bezahle zügig (am Besten mit einem Echtzeitmittel), damit der Voucher so schnell wie möglich repliziert</p>
+<p style="font-style: italic;">Dadurch bekommen alle anderen auch die Möglichkeit ein Ticket im Vorverkauf zu erwerben</p>
+<br />
+
+<p>Mit dem Abholen des Vouchers schwörst du auf dein ThinkPad, dich nicht wie ein Arschloch zu verhalten</p>
+<hr />
+<small>Datenschutzhinweis: Alle Daten werden zu beginn des Congress gelöscht</small>
+</body>
+</html>

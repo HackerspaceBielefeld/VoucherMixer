@@ -1,0 +1,28 @@
+# certs
+certs/*
+
+# dist
+dist/
+
+# node modules
+node_modules
+
+# prod config
+/config.production.ini
+
+# ide
+.vscode/
+.idea/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# ts related
+*.tsbuildinfo
+/package-lock.json
+
+# locals
+httptests/
+public/
